@@ -1,3 +1,4 @@
-export function eslintConfig(): number {
-  return 10 * 10;
+const hoge = {
+  'hoge': 'fuga',
 }
+export default hoge;
