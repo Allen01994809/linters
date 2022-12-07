@@ -3,15 +3,12 @@ const configration = {
     browser: true,
     node: true
   },
-  plugins: [
-    '@typescript-eslint'
-  ],
-  parser: '@typescript-eslint/parser',
   extends: [
     'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
     'prettier',
-    './rule.json'
-  ]
+  ],
+  rules: {
+    'import/newline-after-import': 'error'
+  }
 }
 export default configration;

@@ -1,5 +1,10 @@
 {
   "name": "@allen-packages/eslint-config",
   "version": "0.0.1",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
 }
