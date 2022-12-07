@@ -1,0 +1,11 @@
+{
+  "name": "@allen-packages/eslint-config-typescript",
+  "version": "0.0.1",
+  "type": "commonjs",
+  "dependencies": {
+    "@allen-packages/eslint-config": "^0.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.45.1",
+    "@typescript-eslint/parser": "^5.45.1",
+    "eslint-config-typescript": "^3.0.0"
+  }
+}
